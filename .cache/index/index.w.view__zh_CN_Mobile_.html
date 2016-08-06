@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window caY7N7v" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="caY7N7v" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/messageDialog/messageDialog,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/wing/child,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/wing/wing,$model/UI2/system/components/justep/popOver/popOver,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-wing-left.caY7N7v &gt; .x-titlebar.caY7N7v{background-color: orange}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="caY7N7v" class="caY7N7v"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/wing/wing" class="x-wing caY7N7v" xid="wing" data-bind="component:{name:'$model/UI2/system/components/justep/wing/wing'}" data-config="{&quot;animate&quot;:true,&quot;display&quot;:&quot;push&quot;,&quot;routable&quot;:false}" __cid="caY7N7v"> 
+    <div class="x-wing-left caY7N7v" xid="left" component="$model/UI2/system/components/justep/wing/child" data-bind="component:{name:'$model/UI2/system/components/justep/wing/child'}" __cid="caY7N7v"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar caY7N7v" xid="titleBar1" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;设置&quot;}" __cid="caY7N7v"> 
+        <div class="x-titlebar-left caY7N7v" xid="div2" __cid="caY7N7v"/>  
+        <div class="x-titlebar-title caY7N7v" xid="div3" __cid="caY7N7v">设置</div>  
+        <div class="x-titlebar-right  caY7N7v" xid="div4" __cid="caY7N7v"> 
+          <div class="empty caY7N7v" __cid="caY7N7v"/> 
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pf3c3e3ccbcf54524b69cdc74b8013935-iosstatusbar caY7N7v" xid="panel1" style="height:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="caY7N7v"> 
+        <div class="x-panel-top caY7N7v" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="caY7N7v"/>  
+        <div class="x-panel-content caY7N7v" xid="content2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="caY7N7v"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-lg btn-icon-left caY7N7v" xid="HelpBtn" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:HelpBtnClick" data-config="{&quot;icon&quot;:&quot;icon-android-note&quot;,&quot;label&quot;:&quot;帮助&quot;}" __cid="caY7N7v"> 
+            <i xid="i1" class="icon-android-note caY7N7v" __cid="caY7N7v"/>  
+            <span xid="span1" __cid="caY7N7v" class="caY7N7v">帮助</span> 
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-lg btn-icon-left caY7N7v" xid="aboutSettingBtn" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:aboutSettingBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chatbubble-working&quot;,&quot;label&quot;:&quot;关于&quot;}" __cid="caY7N7v"> 
+            <i xid="i2" class="icon-chatbubble-working caY7N7v" __cid="caY7N7v"/>  
+            <span xid="span2" __cid="caY7N7v" class="caY7N7v">关于</span> 
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-lg btn-icon-left caY7N7v" xid="SetBtn" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:SetBtnClick" data-config="{&quot;icon&quot;:&quot;icon-gear-b&quot;,&quot;label&quot;:&quot;設置&quot;}" __cid="caY7N7v"> 
+            <i xid="i3" class="icon-gear-b caY7N7v" __cid="caY7N7v"/>  
+            <span xid="span3" __cid="caY7N7v" class="caY7N7v">設置</span> 
+          </a> 
+        </div>  
+        <div class="x-panel-bottom caY7N7v" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="caY7N7v"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-lg btn-icon-left caY7N7v" xid="contactbtn" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:contactbtnClick" data-config="{&quot;icon&quot;:&quot;icon-ios7-telephone-outline&quot;,&quot;label&quot;:&quot;联系客服&quot;}" __cid="caY7N7v"> 
+            <i xid="i9" class="icon-ios7-telephone-outline caY7N7v" __cid="caY7N7v"/>  
+            <span xid="span11" __cid="caY7N7v" class="caY7N7v">联系客服</span> 
+          </a> 
+        </div>  
+        <style __cid="caY7N7v" class="caY7N7v">.x-panel.pf3c3e3ccbcf54524b69cdc74b8013935-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pf3c3e3ccbcf54524b69cdc74b8013935-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pf3c3e3ccbcf54524b69cdc74b8013935-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pf3c3e3ccbcf54524b69cdc74b8013935-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pf3c3e3ccbcf54524b69cdc74b8013935-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pf3c3e3ccbcf54524b69cdc74b8013935-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pf3c3e3ccbcf54524b69cdc74b8013935-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pf3c3e3ccbcf54524b69cdc74b8013935-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pf3c3e3ccbcf54524b69cdc74b8013935-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+      </div> 
+    </div>  
+    <div class="x-wing-content caY7N7v" xid="content1" component="$model/UI2/system/components/justep/wing/child" data-bind="component:{name:'$model/UI2/system/components/justep/wing/child'}" __cid="caY7N7v"> 
+      <div class="x-wing-backdrop caY7N7v" xid="div1" __cid="caY7N7v"/>  
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full caY7N7v" xid="pages" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="caY7N7v"/> 
+    </div>  
+    <div class="x-wing-right caY7N7v" xid="right1" component="$model/UI2/system/components/justep/wing/child" data-bind="component:{name:'$model/UI2/system/components/justep/wing/child'}" __cid="caY7N7v"/> 
+  </div>  
+  <div xmlns="" component="$model/UI2/system/components/justep/popOver/popOver" class="x-popOver caY7N7v" xid="contactpopOver" data-bind="component:{name:'$model/UI2/system/components/justep/popOver/popOver'}" data-config="{&quot;anchor&quot;:&quot;listStyleBtn&quot;,&quot;direction&quot;:&quot;right-bottom&quot;,&quot;dismissible&quot;:true,&quot;opacity&quot;:0.7,&quot;position&quot;:&quot;center&quot;}" __cid="caY7N7v"> 
+    <div class="x-popOver-overlay caY7N7v" xid="div20" __cid="caY7N7v"/>  
+    <div class="x-popOver-content tb-sorting caY7N7v" xid="div19" __cid="caY7N7v"> 
+      <div xid="div18" __cid="caY7N7v" class="caY7N7v"> 
+        <div class="text-center panel-body caY7N7v" xid="div21" __cid="caY7N7v"> 
+          <label xid="label2" __cid="caY7N7v" class="caY7N7v">客服电话:14715350501</label> 
+        </div>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-sm btn-block tb-okBtn caY7N7v" xid="contactbackbtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:contactbackbtnClick" data-config="{&quot;label&quot;:&quot;返回&quot;}" __cid="caY7N7v"> 
+          <i xid="i36" __cid="caY7N7v" class="caY7N7v"/>  
+          <span xid="span44" class="text-white caY7N7v" __cid="caY7N7v">返回</span> 
+        </a> 
+      </div> 
+    </div> 
+  </div>  
+  <div xmlns="" component="$model/UI2/system/components/justep/popOver/popOver" class="x-popOver caY7N7v" xid="helppopOver" data-bind="component:{name:'$model/UI2/system/components/justep/popOver/popOver'}" data-config="{&quot;anchor&quot;:&quot;listStyleBtn&quot;,&quot;direction&quot;:&quot;right-bottom&quot;,&quot;dismissible&quot;:true,&quot;opacity&quot;:0.7,&quot;position&quot;:&quot;center&quot;}" __cid="caY7N7v"> 
+    <div class="x-popOver-overlay caY7N7v" xid="div13" __cid="caY7N7v"/>  
+    <div class="x-popOver-content tb-sorting caY7N7v" xid="div15" __cid="caY7N7v"> 
+      <div xid="div16" __cid="caY7N7v" class="caY7N7v"> 
+        <div class="text-center panel-body caY7N7v" xid="div14" __cid="caY7N7v"> 
+          <label xid="label6" __cid="caY7N7v" class="caY7N7v">你好 以下是对该产品的说明</label> 
+        </div>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-sm btn-block tb-okBtn caY7N7v" xid="helpbackbtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:helpbackbtnClick" data-config="{&quot;label&quot;:&quot;返回&quot;}" __cid="caY7N7v"> 
+          <i xid="i6" __cid="caY7N7v" class="caY7N7v"/>  
+          <span xid="span6" class="text-white caY7N7v" __cid="caY7N7v">返回</span> 
+        </a> 
+      </div> 
+    </div> 
+  </div>  
+  <div xmlns="" component="$model/UI2/system/components/justep/popOver/popOver" class="x-popOver caY7N7v" xid="aboutpopOver" data-bind="component:{name:'$model/UI2/system/components/justep/popOver/popOver'}" data-config="{&quot;anchor&quot;:&quot;listStyleBtn&quot;,&quot;direction&quot;:&quot;right-bottom&quot;,&quot;dismissible&quot;:true,&quot;opacity&quot;:0.7,&quot;position&quot;:&quot;center&quot;}" __cid="caY7N7v"> 
+    <div class="x-popOver-overlay caY7N7v" xid="div28" __cid="caY7N7v"/>  
+    <div class="x-popOver-content tb-sorting caY7N7v" xid="div30" __cid="caY7N7v"> 
+      <div xid="div29" __cid="caY7N7v" class="caY7N7v"> 
+        <div class="text-center panel-body caY7N7v" xid="div31" __cid="caY7N7v"> 
+          <label xid="label7" __cid="caY7N7v" class="caY7N7v">你好 以下该产品的版本型号1.1.0</label> 
+        </div>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-sm btn-block tb-okBtn caY7N7v" xid="aboutbackbtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:aboutbackbtnClick" data-config="{&quot;label&quot;:&quot;返回&quot;}" __cid="caY7N7v"> 
+          <i xid="i10" __cid="caY7N7v" class="caY7N7v"/>  
+          <span xid="span10" class="text-white caY7N7v" __cid="caY7N7v">返回</span> 
+        </a> 
+      </div> 
+    </div> 
+  </div>  
+  <span xmlns="" component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialg" style="top:15px;left:291px;" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;感谢你致电我们，我们将会继续完善用户体验。Call-Phone:14715350501&quot;,&quot;title&quot;:&quot;联系客服：&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="caY7N7v" class="caY7N7v"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay caY7N7v" __cid="caY7N7v"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal caY7N7v" __cid="caY7N7v">  
+      <div class="x-modal-inner caY7N7v" __cid="caY7N7v"> 
+        <div class="x-modal-title caY7N7v" __cid="caY7N7v">联系客服：</div>  
+        <div class="x-modal-text caY7N7v" __cid="caY7N7v">感谢你致电我们，我们将会继续完善用户体验。Call-Phone:14715350501</div>  
+        <input class="x-modal-prompt-input caY7N7v" type="text" __cid="caY7N7v"/> 
+      </div>  
+      <div class="x-modal-buttons caY7N7v" __cid="caY7N7v"> 
+        <a class="x-modal-button x-modal-button-bold OK caY7N7v" value="ok" __cid="caY7N7v">确定</a>  
+        <a class="x-modal-button x-modal-button-bold Yes caY7N7v" value="yes" __cid="caY7N7v">是</a>  
+        <a class="x-modal-button x-modal-button-bold No caY7N7v" value="no" __cid="caY7N7v">否</a>  
+        <a class="x-modal-button x-modal-button-bold Cancel caY7N7v" value="cancel" __cid="caY7N7v">取消</a> 
+      </div> 
+    </div> 
+  </span> 
+</div>

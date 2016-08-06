@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cfa26Rz" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cfa26Rz" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/messageDialog/messageDialog,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/button,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cfa26Rz" class="cfa26Rz"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pd217bdb91daa4d23b1064a3cd4bfefa6-iosstatusbar cfa26Rz" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cfa26Rz"> 
+    <div class="x-panel-top cfa26Rz" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cfa26Rz"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cfa26Rz" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;设置&quot;}" __cid="cfa26Rz"> 
+        <div class="x-titlebar-left cfa26Rz" xid="left1" __cid="cfa26Rz"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-only-icon cfa26Rz" xid="FanHuiBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:FanHuiBtnClick" data-config="{&quot;icon&quot;:&quot;icon-android-arrow-back&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cfa26Rz"> 
+            <i xid="i1" class="icon-android-arrow-back cfa26Rz" __cid="cfa26Rz"/>  
+            <span xid="span1" __cid="cfa26Rz" class="cfa26Rz"/>
+          </a> 
+        </div> 
+      </div> 
+    </div>
+    <div class="x-panel-content cfa26Rz" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cfa26Rz">
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p6e1e5f901a1c461cb76f9b5bfdbacc8c-iosstatusbar cfa26Rz" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cfa26Rz"> 
+        <div class="x-panel-content cfa26Rz" xid="content2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cfa26Rz">
+          <div xid="photoDiv" style="margin:5px auto;height:151px;width:165px;" __cid="cfa26Rz" class="cfa26Rz"> 
+            <img alt="" xid="photoImage" style="height:133px;width:108%;" src="$model/UI2/xiaozujun/img/login.jpg" __cid="cfa26Rz" class="cfa26Rz"/>
+          </div>  
+          <div class="panel panel-default x-card cfa26Rz" xid="div1" __cid="cfa26Rz"> 
+            <div class="panel-heading clearfix cfa26Rz" xid="div2" __cid="cfa26Rz"> 
+              <h3 class="panel-title pull-left cfa26Rz" xid="h31" __cid="cfa26Rz"/> 
+            </div>
+            <div class="modal-body cfa26Rz" xid="div3" __cid="cfa26Rz"> 
+              <form class="form-horizontal cfa26Rz" xid="form1" __cid="cfa26Rz"> 
+                <div class="form-group cfa26Rz" xid="formGroup1" __cid="cfa26Rz"> 
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cfa26Rz" xid="functionBtn" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:functionBtnClick" data-config="{&quot;label&quot;:&quot;功能介绍&quot;}" __cid="cfa26Rz"> 
+                    <i xid="i2" __cid="cfa26Rz" class="cfa26Rz"/>  
+                    <span xid="span4" class="pull-left cfa26Rz" __cid="cfa26Rz">功能介绍</span>
+                  </a>
+                </div>  
+                <div class="form-group cfa26Rz" xid="formGroup7" __cid="cfa26Rz"> 
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cfa26Rz" xid="checkBtn" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:checkBtnClick" data-config="{&quot;label&quot;:&quot;检查新版本&quot;}" __cid="cfa26Rz"> 
+                    <i xid="i3" __cid="cfa26Rz" class="cfa26Rz"/>  
+                    <span xid="span5" class="pull-left cfa26Rz" __cid="cfa26Rz">检查新版本</span>
+                  </a> 
+                </div>  
+                <div class="form-group cfa26Rz" xid="formGroup8" __cid="cfa26Rz"> 
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cfa26Rz" xid="agreementBtn" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:agreementBtnClick" data-config="{&quot;label&quot;:&quot;应用协议&quot;}" __cid="cfa26Rz"> 
+                    <i xid="i4" __cid="cfa26Rz" class="cfa26Rz"/>  
+                    <span xid="span6" class="pull-left cfa26Rz" __cid="cfa26Rz">应用协议</span>
+                  </a> 
+                </div>  
+                <div class="form-group cfa26Rz" xid="formGroup11" __cid="cfa26Rz"> 
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cfa26Rz" xid="contactbtn" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:contactbtnClick" data-config="{&quot;label&quot;:&quot;联系客服&quot;}" __cid="cfa26Rz"> 
+                    <i xid="i7" __cid="cfa26Rz" class="cfa26Rz"/>  
+                    <span xid="span9" class="pull-left cfa26Rz" __cid="cfa26Rz">联系客服</span>
+                  </a> 
+                </div>  
+                <div class="form-group cfa26Rz" xid="formGroup12" __cid="cfa26Rz"> 
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cfa26Rz" xid="enjoyBtn" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:enjoyBtnClick" data-config="{&quot;label&quot;:&quot;加入我们&quot;}" __cid="cfa26Rz"> 
+                    <i xid="i8" __cid="cfa26Rz" class="cfa26Rz"/>  
+                    <span xid="span10" class="pull-left cfa26Rz" __cid="cfa26Rz">加入我们</span>
+                  </a> 
+                </div>
+              </form> 
+            </div>  
+            <div class="panel-footer clearfix cfa26Rz" xid="div4" __cid="cfa26Rz"></div> 
+          </div>
+        </div>  
+        <style __cid="cfa26Rz" class="cfa26Rz">.x-panel.p6e1e5f901a1c461cb76f9b5bfdbacc8c-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.p6e1e5f901a1c461cb76f9b5bfdbacc8c-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p6e1e5f901a1c461cb76f9b5bfdbacc8c-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p6e1e5f901a1c461cb76f9b5bfdbacc8c-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p6e1e5f901a1c461cb76f9b5bfdbacc8c-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p6e1e5f901a1c461cb76f9b5bfdbacc8c-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p6e1e5f901a1c461cb76f9b5bfdbacc8c-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p6e1e5f901a1c461cb76f9b5bfdbacc8c-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p6e1e5f901a1c461cb76f9b5bfdbacc8c-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+      </div>
+    </div>  
+    <style __cid="cfa26Rz" class="cfa26Rz">.x-panel.pd217bdb91daa4d23b1064a3cd4bfefa6-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pd217bdb91daa4d23b1064a3cd4bfefa6-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pd217bdb91daa4d23b1064a3cd4bfefa6-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pd217bdb91daa4d23b1064a3cd4bfefa6-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd217bdb91daa4d23b1064a3cd4bfefa6-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pd217bdb91daa4d23b1064a3cd4bfefa6-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd217bdb91daa4d23b1064a3cd4bfefa6-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd217bdb91daa4d23b1064a3cd4bfefa6-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd217bdb91daa4d23b1064a3cd4bfefa6-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="mapDialog" style="left:118px;top:51px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;routable&quot;:true,&quot;src&quot;:&quot;$model/UI2/xiaozujun/mapActivity.w&quot;}" __cid="cfa26Rz" class="cfa26Rz">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cfa26Rz" __cid="cfa26Rz"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cfa26Rz" style="display:none;" __cid="cfa26Rz">
+      <xhtml:div class="x-dialog-title cfa26Rz" __cid="cfa26Rz">
+        <xhtml:button class="close cfa26Rz" __cid="cfa26Rz">
+          <xhtml:span __cid="cfa26Rz" class="cfa26Rz">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cfa26Rz" __cid="cfa26Rz"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cfa26Rz" __cid="cfa26Rz"/>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialg" style="left:90px;top:569px;" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;感谢你致电我们，我们将会继续完善用户体验。Call-Phone:14715350501&quot;,&quot;title&quot;:&quot;联系客服：&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cfa26Rz" class="cfa26Rz">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cfa26Rz" __cid="cfa26Rz"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cfa26Rz" __cid="cfa26Rz">
+      <xhtml:div class="x-modal-inner cfa26Rz" __cid="cfa26Rz">
+        <xhtml:div class="x-modal-title cfa26Rz" __cid="cfa26Rz">联系客服：</xhtml:div>
+        <xhtml:div class="x-modal-text cfa26Rz" __cid="cfa26Rz">感谢你致电我们，我们将会继续完善用户体验。Call-Phone:14715350501</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cfa26Rz" type="text" __cid="cfa26Rz"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cfa26Rz" __cid="cfa26Rz">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cfa26Rz" value="ok" __cid="cfa26Rz">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cfa26Rz" value="yes" __cid="cfa26Rz">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cfa26Rz" value="no" __cid="cfa26Rz">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cfa26Rz" value="cancel" __cid="cfa26Rz">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="functionDialg" style="left:133px;top:572px;" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;解决了一些已知问题&quot;,&quot;title&quot;:&quot;功能介绍：&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cfa26Rz" class="cfa26Rz">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cfa26Rz" __cid="cfa26Rz"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cfa26Rz" __cid="cfa26Rz">
+      <xhtml:div class="x-modal-inner cfa26Rz" __cid="cfa26Rz">
+        <xhtml:div class="x-modal-title cfa26Rz" __cid="cfa26Rz">功能介绍：</xhtml:div>
+        <xhtml:div class="x-modal-text cfa26Rz" __cid="cfa26Rz">解决了一些已知问题</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cfa26Rz" type="text" __cid="cfa26Rz"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cfa26Rz" __cid="cfa26Rz">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cfa26Rz" value="ok" __cid="cfa26Rz">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cfa26Rz" value="yes" __cid="cfa26Rz">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cfa26Rz" value="no" __cid="cfa26Rz">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cfa26Rz" value="cancel" __cid="cfa26Rz">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="enjoyDialg" style="left:170px;top:572px;" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;您可以将您的信息发送至我们的邮箱 : 1790887746@qq.com;  同时您也可以将更好的建议分享给我们。&quot;,&quot;title&quot;:&quot;欢迎加入我们：&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cfa26Rz" class="cfa26Rz">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cfa26Rz" __cid="cfa26Rz"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cfa26Rz" __cid="cfa26Rz">
+      <xhtml:div class="x-modal-inner cfa26Rz" __cid="cfa26Rz">
+        <xhtml:div class="x-modal-title cfa26Rz" __cid="cfa26Rz">欢迎加入我们：</xhtml:div>
+        <xhtml:div class="x-modal-text cfa26Rz" __cid="cfa26Rz">您可以将您的信息发送至我们的邮箱 : 1790887746@qq.com; 同时您也可以将更好的建议分享给我们。</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cfa26Rz" type="text" __cid="cfa26Rz"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cfa26Rz" __cid="cfa26Rz">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cfa26Rz" value="ok" __cid="cfa26Rz">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cfa26Rz" value="yes" __cid="cfa26Rz">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cfa26Rz" value="no" __cid="cfa26Rz">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cfa26Rz" value="cancel" __cid="cfa26Rz">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="checkDialog" style="left:204px;top:571px;" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;您的应用为最新版本&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cfa26Rz" class="cfa26Rz">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cfa26Rz" __cid="cfa26Rz"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cfa26Rz" __cid="cfa26Rz">
+      <xhtml:div class="x-modal-inner cfa26Rz" __cid="cfa26Rz">
+        <xhtml:div class="x-modal-title cfa26Rz" __cid="cfa26Rz"></xhtml:div>
+        <xhtml:div class="x-modal-text cfa26Rz" __cid="cfa26Rz">您的应用为最新版本</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cfa26Rz" type="text" __cid="cfa26Rz"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cfa26Rz" __cid="cfa26Rz">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cfa26Rz" value="ok" __cid="cfa26Rz">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cfa26Rz" value="yes" __cid="cfa26Rz">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cfa26Rz" value="no" __cid="cfa26Rz">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cfa26Rz" value="cancel" __cid="cfa26Rz">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="agreementDialog" style="left:245px;top:573px;" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;使用规则；知识产权；个人隐私；侵权举报；免责声明；协议修改&quot;,&quot;title&quot;:&quot;应用协议&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cfa26Rz" class="cfa26Rz">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cfa26Rz" __cid="cfa26Rz"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cfa26Rz" __cid="cfa26Rz">
+      <xhtml:div class="x-modal-inner cfa26Rz" __cid="cfa26Rz">
+        <xhtml:div class="x-modal-title cfa26Rz" __cid="cfa26Rz">应用协议</xhtml:div>
+        <xhtml:div class="x-modal-text cfa26Rz" __cid="cfa26Rz">使用规则；知识产权；个人隐私；侵权举报；免责声明；协议修改</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cfa26Rz" type="text" __cid="cfa26Rz"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cfa26Rz" __cid="cfa26Rz">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cfa26Rz" value="ok" __cid="cfa26Rz">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cfa26Rz" value="yes" __cid="cfa26Rz">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cfa26Rz" value="no" __cid="cfa26Rz">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cfa26Rz" value="cancel" __cid="cfa26Rz">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>
+</div>
